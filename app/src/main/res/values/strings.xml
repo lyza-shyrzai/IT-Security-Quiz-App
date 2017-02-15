@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">IT Security Quiz App</string>
     <string name="enter_your_name">Enter Your Name</string>
+    <string name="num_question_1">Question 1</string>
+    <string name="question_1">Which of the following are the primary goals of network security? (Choose 3 best answers)</string>
+    <string name="redundancy">Redundancy</string>
+    <string name="availability">Availability</string>
+    <string name="integrity">Integrity</string>
+    <string name="confidentality">Confidentality</string>
+    <string name="remote_access">Remote access</string>
 </resources>

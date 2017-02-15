@@ -23,6 +23,35 @@
             android:layout_height="wrap_content"
             android:hint="@string/enter_your_name"
             android:inputType="textCapWords" />
+
+        <!--Question 1-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_1" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_1" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/redundancy" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/availability" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/integrity" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/confidentality" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/remote_access" />
     </LinearLayout>
 
 </ScrollView>
