@@ -16,7 +16,13 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.example.androidl.itsecurityquizapp.MainActivity">
 
-
+        <!--Name Input-->
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name"
+            android:inputType="textCapWords" />
     </LinearLayout>
 
 </ScrollView>
