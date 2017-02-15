@@ -47,7 +47,7 @@
 
         <CheckBox
             style="@style/Checkbox_Answer"
-            android:text="@string/confidentality" />
+            android:text="@string/confidentiality" />
 
         <CheckBox
             style="@style/Checkbox_Answer"
