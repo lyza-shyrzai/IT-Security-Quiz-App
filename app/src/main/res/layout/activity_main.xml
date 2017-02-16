@@ -52,6 +52,15 @@
         <CheckBox
             style="@style/Checkbox_Answer"
             android:text="@string/remote_access" />
+
+        <!--Line-->
+        <View style="@style/Line"></View>
+
+        <!--Question 2-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Question 2" />
+
     </LinearLayout>
 
 </ScrollView>
