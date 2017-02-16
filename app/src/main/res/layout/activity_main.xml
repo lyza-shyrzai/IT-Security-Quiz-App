@@ -86,6 +86,8 @@
                 android:text="@string/answer_2_4" />
         </RadioGroup>
 
+        <!--Line-->
+        <View style="@style/Line"></View>
     </LinearLayout>
 
 </ScrollView>
