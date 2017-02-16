@@ -59,7 +59,32 @@
         <!--Question 2-->
         <TextView
             style="@style/HeaderTextStyle"
-            android:text="Question 2" />
+            android:text="@string/num_question_2" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/answer_2_1" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/answer_2_2" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/answer_2_3" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/answer_2_4" />
+        </RadioGroup>
 
     </LinearLayout>
 

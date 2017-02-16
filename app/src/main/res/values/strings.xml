@@ -10,4 +10,12 @@
     <string name="integrity">Integrity</string>
     <string name="confidentiality">Confidentiality</string>
     <string name="remote_access">Remote access</string>
+
+    <!--Question 2-->
+    <string name="num_question_2">Question 2</string>
+    <string name="question_2">Which of the following statements best describes confidentiality of information?</string>
+    <string name="answer_2_1">Refers to keeping the data private and preventing unauthorized access</string>
+    <string name="answer_2_2">Refers to making the data available any time that a client wants to access</string>
+    <string name="answer_2_3">Refers to keeping the data secure from being modified in storage or transmit</string>
+    <string name="answer_2_4">Refers to making the data private, secure and available</string>
 </resources>
