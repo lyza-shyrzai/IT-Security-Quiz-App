@@ -18,6 +18,8 @@
     <string name="answer_2_2">Refers to making the data available any time that a client wants to access</string>
     <string name="answer_2_3">Refers to keeping the data secure from being modified in storage or transmit</string>
     <string name="answer_2_4">Refers to making the data private, secure and available</string>
+
+    <!--Question 3-->
     <string name="num_question_3">Question 3</string>
     <string name="question_3">According to Cisco, organizational data is classified into four categories. Which of the following is NOT classification category?</string>
     <string name="publ">Public</string>
