@@ -24,6 +24,9 @@
             android:hint="@string/enter_your_name"
             android:inputType="textCapWords" />
 
+        <!--Line-->
+        <View style="@style/Line"></View>
+
         <!--Question 1-->
         <TextView
             style="@style/HeaderTextStyle"
