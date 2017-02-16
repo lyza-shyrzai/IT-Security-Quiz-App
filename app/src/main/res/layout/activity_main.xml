@@ -91,6 +91,40 @@
 
         <!--Line-->
         <View style="@style/Line"></View>
+
+        <!--Question 3-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_3" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_3" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/publ" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/sensitive" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/confidential" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/_private" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/trusty_worthy" />
+        </RadioGroup>
     </LinearLayout>
 
 </ScrollView>
