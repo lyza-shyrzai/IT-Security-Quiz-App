@@ -224,7 +224,8 @@
                 android:text="@string/distribution_attack" />
         </RadioGroup>
 
-
+        <!--Line-->
+        <View style="@style/Line"></View>
     </LinearLayout>
 
 </ScrollView>
