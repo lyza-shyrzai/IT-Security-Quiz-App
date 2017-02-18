@@ -256,6 +256,10 @@
                 style="@style/RadioButton_Answer"
                 android:text="@string/vulnerability" />
         </RadioGroup>
+
+        <!--Line-->
+        <View style="@style/Line"></View>
+
     </LinearLayout>
 
 </ScrollView>
