@@ -415,6 +415,13 @@
             android:id="@+id/tcpsyn_flood_10_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/tcpsyn_flood" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:onClick="end_Test"
+            android:text="@string/end_test" />
     </LinearLayout>
 
 </ScrollView>
