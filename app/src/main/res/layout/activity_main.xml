@@ -34,22 +34,27 @@
             android:text="@string/question_1" />
 
         <CheckBox
+            android:id="@+id/redundancy_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/redundancy" />
 
         <CheckBox
+            android:id="@+id/availability_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/availability" />
 
         <CheckBox
+            android:id="@+id/integrity_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/integrity" />
 
         <CheckBox
+            android:id="@+id/confidentiality_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/confidentiality" />
 
         <CheckBox
+            android:id="@+id/remote_access_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/remote_access" />
 
@@ -70,18 +75,22 @@
             android:layout_height="wrap_content">
 
             <RadioButton
+                android:id="@+id/answer_2_1_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/answer_2_1" />
 
             <RadioButton
+                android:id="@+id/answer_2_2_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/answer_2_2" />
 
             <RadioButton
+                android:id="@+id/answer_2_3_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/answer_2_3" />
 
             <RadioButton
+                android:id="@+id/answer_2_4_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/answer_2_4" />
         </RadioGroup>
@@ -103,22 +112,27 @@
             android:layout_height="wrap_content">
 
             <RadioButton
+                android:id="@+id/publ_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/publ" />
 
             <RadioButton
+                android:id="@+id/sensitive_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/sensitive" />
 
             <RadioButton
+                android:id="@+id/confidential_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/confidential" />
 
             <RadioButton
+                android:id="@+id/private_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/_private" />
 
             <RadioButton
+                android:id="@+id/trusty_worthy_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/trusty_worthy" />
         </RadioGroup>
@@ -136,22 +150,27 @@
             android:text="@string/question_4" />
 
         <CheckBox
+            android:id="@+id/managerial_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/managerial" />
 
         <CheckBox
+            android:id="@+id/physical_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/physical" />
 
         <CheckBox
+            android:id="@+id/logical_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/logical" />
 
         <CheckBox
+            android:id="@+id/administrative_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/administrative" />
 
         <CheckBox
+            android:id="@+id/geographical_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/geographical" />
 
@@ -168,22 +187,27 @@
             android:text="@string/question_5" />
 
         <CheckBox
+            android:id="@+id/answer_5_1_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/answer_5_1" />
 
         <CheckBox
+            android:id="@+id/answer_5_2_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/answer_5_2" />
 
         <CheckBox
+            android:id="@+id/answer_5_3_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/answer_5_3" />
 
         <CheckBox
+            android:id="@+id/answer_5_4_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/answer_5_4" />
 
         <CheckBox
+            android:id="@+id/answer_5_5_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/answer_5_5" />
 
@@ -204,22 +228,27 @@
             android:layout_height="wrap_content">
 
             <RadioButton
+                android:id="@+id/passive_attack_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/passive_attack" />
 
             <RadioButton
+                android:id="@+id/active_attack_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/active_attack" />
 
             <RadioButton
+                android:id="@+id/close_in_attack_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/close_in_attack" />
 
             <RadioButton
+                android:id="@+id/insider_attack_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/insider_attack" />
 
             <RadioButton
+                android:id="@+id/distribution_attack_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/distribution_attack" />
         </RadioGroup>
@@ -241,18 +270,22 @@
             android:layout_height="wrap_content">
 
             <RadioButton
+                android:id="@+id/physical_security_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/physical_security" />
 
             <RadioButton
+                android:id="@+id/administrative_security_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/administrative_security" />
 
             <RadioButton
+                android:id="@+id/logical_security_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/logical_security" />
 
             <RadioButton
+                android:id="@+id/vulnerability_radiobutton"
                 style="@style/RadioButton_Answer"
                 android:text="@string/vulnerability" />
         </RadioGroup>
@@ -270,26 +303,32 @@
             android:text="@string/question_8" />
 
         <CheckBox
+            android:id="@+id/packet_capture_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/packet_capture" />
 
         <CheckBox
+            android:id="@+id/password_attack_8_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/password_attack" />
 
         <CheckBox
+            android:id="@+id/dumpster_driving_8_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/dumpster_driving" />
 
         <CheckBox
+            android:id="@+id/botnet_8_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/botnet" />
 
         <CheckBox
+            android:id="@+id/social_engineering_8_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/social_engineering" />
 
         <CheckBox
+            android:id="@+id/tcpsyn_flood_8_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/tcpsyn_flood" />
 
@@ -306,26 +345,32 @@
             android:text="@string/question_9" />
 
         <CheckBox
+            android:id="@+id/data_diddling_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/data_diddling" />
 
         <CheckBox
+            android:id="@+id/password_attack_9_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/password_attack" />
 
         <CheckBox
+            android:id="@+id/dumpster_driving_9_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/dumpster_driving" />
 
         <CheckBox
+            android:id="@+id/botnet_9_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/botnet" />
 
         <CheckBox
+            android:id="@+id/social_engineering_9_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/social_engineering" />
 
         <CheckBox
+            android:id="@+id/tcpsyn_flood_9_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/tcpsyn_flood" />
 
@@ -342,26 +387,32 @@
             android:text="@string/question_10" />
 
         <CheckBox
+            android:id="@+id/denian_of_service_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/denian_of_service" />
 
         <CheckBox
+            android:id="@+id/password_attack_10_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/password_attack" />
 
         <CheckBox
+            android:id="@+id/dumpster_driving_10_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/dumpster_driving" />
 
         <CheckBox
+            android:id="@+id/botnet_10_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/botnet" />
 
         <CheckBox
+            android:id="@+id/social_engineering_10_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/social_engineering" />
 
         <CheckBox
+            android:id="@+id/tcpsyn_flood_10_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/tcpsyn_flood" />
     </LinearLayout>
