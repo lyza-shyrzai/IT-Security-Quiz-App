@@ -99,5 +99,13 @@
     <string name="data_diddling">Data diddling</string>
     <!--Rest of the answers to question 9 to watch in the answer to question 8 above-->
 
+    <!--Question 10-->
+    <string name="num_question_10">Question 10</string>
+    <string name="question_10">Which of the following are the attacks on availability of a resource? (Choose 3 best answers)</string>
+
+    <!--Answers to the question 9-->
+    <string name="denian_of_service">Denian of Service</string>
+    <!--Rest of the answers to question 10 to watch in the answer to question 8 above-->
+
 
 </resources>
