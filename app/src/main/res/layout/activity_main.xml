@@ -190,6 +190,40 @@
         <!--Line-->
         <View style="@style/Line"></View>
 
+        <!--Question 6-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_6" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_6" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/passive_attack" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/active_attack" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/close_in_attack" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/insider_attack" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/distribution_attack" />
+        </RadioGroup>
+
 
     </LinearLayout>
 

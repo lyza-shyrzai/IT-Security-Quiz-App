@@ -57,4 +57,15 @@
     <string name="answer_5_3">DAI can prevent common man-in-the-middle (MIM) attacks such as ARP cache poisoning</string>
     <string name="answer_5_4">Prevents mis-configuration of client IP addresses</string>
     <string name="answer_5_5">Prevents CAM table overflows</string>
+
+    <!--Question 6-->
+    <string name="num_question_6">Question 6</string>
+    <string name="question_6">Which one of the following types of attack intentionally introduced a back door to a system?</string>
+
+    <!--Answer on the question 6-->
+    <string name="passive_attack">Passive attack</string>
+    <string name="active_attack">Active attack</string>
+    <string name="close_in_attack">Close-in attack</string>
+    <string name="insider_attack">Insider attack</string>
+    <string name="distribution_attack">Distribution attack</string>
 </resources>
