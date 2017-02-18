@@ -145,6 +145,18 @@
         <CheckBox
             style="@style/Checkbox_Answer"
             android:text="@string/physical" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/logical" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/administrative" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/geographical" />
     </LinearLayout>
 
 </ScrollView>

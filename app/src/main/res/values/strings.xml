@@ -5,6 +5,8 @@
     <!--Question 1-->
     <string name="num_question_1">Question 1</string>
     <string name="question_1">Which of the following are the primary goals of network security? (Choose 3 best answers)</string>
+
+    <!--Answer on the question 1-->
     <string name="redundancy">Redundancy</string>
     <string name="availability">Availability</string>
     <string name="integrity">Integrity</string>
@@ -14,6 +16,8 @@
     <!--Question 2-->
     <string name="num_question_2">Question 2</string>
     <string name="question_2">Which of the following statements best describes confidentiality of information?</string>
+
+    <!--Answer on the question 2-->
     <string name="answer_2_1">Refers to keeping the data private and preventing unauthorized access</string>
     <string name="answer_2_2">Refers to making the data available any time that a client wants to access</string>
     <string name="answer_2_3">Refers to keeping the data secure from being modified in storage or transmit</string>
@@ -22,6 +26,8 @@
     <!--Question 3-->
     <string name="num_question_3">Question 3</string>
     <string name="question_3">According to Cisco, organizational data is classified into four categories. Which of the following is NOT classification category?</string>
+
+    <!--Answer on the question 3-->
     <string name="publ">Public</string>
     <string name="sensitive">Sensitive</string>
     <string name="confidential">Confidential</string>
@@ -31,6 +37,11 @@
     <!--Question 4-->
     <string name="question_4">What are the THREE security solution that Cisco recommends for comprehensive security?</string>
     <string name="num_question_4">Question 4</string>
+
+    <!--Answer on the question 4-->
     <string name="managerial">Managerial</string>
     <string name="physical">Physical</string>
+    <string name="logical">Logical</string>
+    <string name="administrative">Administrative</string>
+    <string name="geographical">Geographical</string>
 </resources>
