@@ -125,6 +125,11 @@
                 style="@style/RadioButton_Answer"
                 android:text="@string/trusty_worthy" />
         </RadioGroup>
+
+        <!--Line-->
+        <View style="@style/Line"></View>
+
+
     </LinearLayout>
 
 </ScrollView>
