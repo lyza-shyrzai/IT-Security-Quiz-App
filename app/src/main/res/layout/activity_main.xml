@@ -295,6 +295,39 @@
 
         <!--Line-->
         <View style="@style/Line"></View>
+
+        <!--Question 9-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_9" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_9" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/data_diddling" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/password_attack" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/dumpster_driving" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/botnet" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/social_engineering" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/tcpsyn_flood" />
     </LinearLayout>
 
 </ScrollView>
