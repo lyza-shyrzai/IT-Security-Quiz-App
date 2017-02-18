@@ -78,8 +78,12 @@
     <string name="administrative_security">Administrative security</string>
     <string name="logical_security">Logical security</string>
     <string name="vulnerability">Vulnerability</string>
+
+    <!--Question 8-->
     <string name="num_question_8">Question 8</string>
     <string name="question_8">Which three of the following are the Confidentiality attack strategies? (Choose 3 best answers)</string>
+
+    <!--Answer on the question 8-->
     <string name="packet_capture">Packet capture</string>
     <string name="password_attack">Password attack</string>
     <string name="dumpster_driving">Dumpster driving</string>
