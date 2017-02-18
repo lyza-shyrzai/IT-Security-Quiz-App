@@ -68,4 +68,14 @@
     <string name="close_in_attack">Close-in attack</string>
     <string name="insider_attack">Insider attack</string>
     <string name="distribution_attack">Distribution attack</string>
+
+    <!--Question 7-->
+    <string name="num_question_7">Question 7</string>
+    <string name="Question_7">An organization screens its employees for any previous criminal records, as part of implementation of organizational security. It may be categorized as:</string>
+
+    <!--Answer on the question 7-->
+    <string name="physical_security">Physical security</string>
+    <string name="administrative_security">Administrative security</string>
+    <string name="logical_security">Logical security</string>
+    <string name="vulnerability">Vulnerability</string>
 </resources>

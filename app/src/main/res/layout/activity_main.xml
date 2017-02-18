@@ -226,6 +226,36 @@
 
         <!--Line-->
         <View style="@style/Line"></View>
+
+        <!--Question 7-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_7" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/Question_7" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/physical_security" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/administrative_security" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/logical_security" />
+
+            <RadioButton
+                style="@style/RadioButton_Answer"
+                android:text="@string/vulnerability" />
+        </RadioGroup>
     </LinearLayout>
 
 </ScrollView>
