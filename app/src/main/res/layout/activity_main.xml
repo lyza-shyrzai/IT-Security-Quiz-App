@@ -24,9 +24,6 @@
             android:hint="@string/enter_your_name"
             android:inputType="textCapWords" />
 
-        <!--Line-->
-        <View style="@style/Line"></View>
-
         <!--Question 1-->
         <TextView
             style="@style/HeaderTextStyle"
@@ -160,6 +157,35 @@
 
         <!--Line-->
         <View style="@style/Line"></View>
+
+        <!--Question 5-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_5" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_5" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_1" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_2" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_3" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_4" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/answer_5_5" />
     </LinearLayout>
 
 </ScrollView>

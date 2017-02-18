@@ -46,4 +46,15 @@
     <string name="logical">Logical</string>
     <string name="administrative">Administrative</string>
     <string name="geographical">Geographical</string>
+
+    <!--Question 5-->
+    <string name="num_question_5">Question 5</string>
+    <string name="question_5">Which of the following is true about Dynamic ARP Inspection (DAI) employed in a network switch? (Choose 3 best answers)</string>
+
+    <!--Answer on the question 5-->
+    <string name="answer_5_1">Intercept and examine all ARP request and response packets in a subnet and discard packets with invalid IP-to-MAC address bindings</string>
+    <string name="answer_5_2">Prevents STP attacks</string>
+    <string name="answer_5_3">DAI can prevent common man-in-the-middle (MIM) attacks such as ARP cache poisoning</string>
+    <string name="answer_5_4">Prevents mis-configuration of client IP addresses</string>
+    <string name="answer_5_5">Prevents CAM table overflows</string>
 </resources>
