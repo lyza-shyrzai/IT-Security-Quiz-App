@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">IT Security Quiz App</string>
+
+    <!--Enter Your Name Field-->
     <string name="enter_your_name">Enter Your Name</string>
 
     <!--Question 1-->

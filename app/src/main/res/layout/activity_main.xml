@@ -157,6 +157,9 @@
         <CheckBox
             style="@style/Checkbox_Answer"
             android:text="@string/geographical" />
+
+        <!--Line-->
+        <View style="@style/Line"></View>
     </LinearLayout>
 
 </ScrollView>
