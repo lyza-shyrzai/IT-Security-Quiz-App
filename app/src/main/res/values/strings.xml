@@ -105,8 +105,8 @@
 
     <!--Answers to the question 9-->
     <string name="denian_of_service">Denian of Service</string>
-    <string name="end_test">End test</string>
     <!--Rest of the answers to question 10 to watch in the answer to question 8 above-->
 
-
+    <!--Button "End Test"-->
+    <string name="end_test">End test</string>
 </resources>
