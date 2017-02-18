@@ -8,7 +8,7 @@
     <string name="num_question_1">Question 1</string>
     <string name="question_1">Which of the following are the primary goals of network security? (Choose 3 best answers)</string>
 
-    <!--Answers on the question 1-->
+    <!--Answers to the question 1-->
     <string name="redundancy">Redundancy</string>
     <string name="availability">Availability</string>
     <string name="integrity">Integrity</string>
@@ -19,7 +19,7 @@
     <string name="num_question_2">Question 2</string>
     <string name="question_2">Which of the following statements best describes confidentiality of information?</string>
 
-    <!--Answers on the question 2-->
+    <!--Answers to the question 2-->
     <string name="answer_2_1">Refers to keeping the data private and preventing unauthorized access</string>
     <string name="answer_2_2">Refers to making the data available any time that a client wants to access</string>
     <string name="answer_2_3">Refers to keeping the data secure from being modified in storage or transmit</string>
@@ -29,7 +29,7 @@
     <string name="num_question_3">Question 3</string>
     <string name="question_3">According to Cisco, organizational data is classified into four categories. Which of the following is NOT classification category?</string>
 
-    <!--Answers on the question 3-->
+    <!--Answers to the question 3-->
     <string name="publ">Public</string>
     <string name="sensitive">Sensitive</string>
     <string name="confidential">Confidential</string>
@@ -40,7 +40,7 @@
     <string name="question_4">What are the THREE security solution that Cisco recommends for comprehensive security?</string>
     <string name="num_question_4">Question 4</string>
 
-    <!--Answers on the question 4-->
+    <!--Answers to the question 4-->
     <string name="managerial">Managerial</string>
     <string name="physical">Physical</string>
     <string name="logical">Logical</string>
@@ -51,7 +51,7 @@
     <string name="num_question_5">Question 5</string>
     <string name="question_5">Which of the following is true about Dynamic ARP Inspection (DAI) employed in a network switch? (Choose 3 best answers)</string>
 
-    <!--Answers on the question 5-->
+    <!--Answers to the question 5-->
     <string name="answer_5_1">Intercept and examine all ARP request and response packets in a subnet and discard packets with invalid IP-to-MAC address bindings</string>
     <string name="answer_5_2">Prevents STP attacks</string>
     <string name="answer_5_3">DAI can prevent common man-in-the-middle (MIM) attacks such as ARP cache poisoning</string>
@@ -62,7 +62,7 @@
     <string name="num_question_6">Question 6</string>
     <string name="question_6">Which one of the following types of attack intentionally introduced a back door to a system?</string>
 
-    <!--Answers on the question 6-->
+    <!--Answers to the question 6-->
     <string name="passive_attack">Passive attack</string>
     <string name="active_attack">Active attack</string>
     <string name="close_in_attack">Close-in attack</string>
@@ -73,7 +73,7 @@
     <string name="num_question_7">Question 7</string>
     <string name="Question_7">An organization screens its employees for any previous criminal records, as part of implementation of organizational security. It may be categorized as:</string>
 
-    <!--Answers on the question 7-->
+    <!--Answers to the question 7-->
     <string name="physical_security">Physical security</string>
     <string name="administrative_security">Administrative security</string>
     <string name="logical_security">Logical security</string>
@@ -83,7 +83,7 @@
     <string name="num_question_8">Question 8</string>
     <string name="question_8">Which three of the following are the Confidentiality attack strategies? (Choose 3 best answers)</string>
 
-    <!--Answers on the question 8-->
+    <!--Answers to the question 8-->
     <string name="packet_capture">Packet capture</string>
     <string name="password_attack">Password attack</string>
     <string name="dumpster_driving">Dumpster driving</string>
@@ -95,7 +95,7 @@
     <string name="num_question_9">Question 9</string>
     <string name="question_9">Which of the following are the Integrity attacks? (Choose 3 best answers)</string>
 
-    <!--Answers on the question 9-->
+    <!--Answers to the question 9-->
     <string name="data_diddling">Data diddling</string>
     <!--Rest of the answers to question 9 to watch in the answer to question 8 above-->
 
