@@ -292,6 +292,9 @@
         <CheckBox
             style="@style/Checkbox_Answer"
             android:text="@string/tcpsyn_flood" />
+
+        <!--Line-->
+        <View style="@style/Line"></View>
     </LinearLayout>
 
 </ScrollView>
