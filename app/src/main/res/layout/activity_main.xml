@@ -186,6 +186,11 @@
         <CheckBox
             style="@style/Checkbox_Answer"
             android:text="@string/answer_5_5" />
+
+        <!--Line-->
+        <View style="@style/Line"></View>
+
+
     </LinearLayout>
 
 </ScrollView>
