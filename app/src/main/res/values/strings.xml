@@ -27,4 +27,10 @@
     <string name="confidential">Confidential</string>
     <string name="_private">Private</string>
     <string name="trusty_worthy">Trusty worthy</string>
+
+    <!--Question 4-->
+    <string name="question_4">What are the THREE security solution that Cisco recommends for comprehensive security?</string>
+    <string name="num_question_4">Question 4</string>
+    <string name="managerial">Managerial</string>
+    <string name="physical">Physical</string>
 </resources>

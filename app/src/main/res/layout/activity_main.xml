@@ -129,7 +129,22 @@
         <!--Line-->
         <View style="@style/Line"></View>
 
+        <!--Question 4-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/num_question_4" />
 
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/question_4" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/managerial" />
+
+        <CheckBox
+            style="@style/Checkbox_Answer"
+            android:text="@string/physical" />
     </LinearLayout>
 
 </ScrollView>
