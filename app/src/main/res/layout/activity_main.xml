@@ -422,6 +422,23 @@
             android:layout_marginTop="24dp"
             android:onClick="end_Test"
             android:text="@string/end_test" />
+
+        <!--Line-->
+        <View style="@style/Line"></View>
+
+        <!--Test Result-->
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="64dp"
+            android:text="@string/test_result" />
+
+        <TextView
+            android:id="@+id/test_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text=" "
+            android:textColor="@android:color/black" />
     </LinearLayout>
 
 </ScrollView>
