@@ -429,7 +429,6 @@
         <!--Test Result-->
         <TextView
             style="@style/HeaderTextStyle"
-            android:layout_height="64dp"
             android:text="@string/test_result" />
 
         <TextView

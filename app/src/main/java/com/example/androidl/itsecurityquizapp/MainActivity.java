@@ -55,4 +55,13 @@ public class MainActivity extends AppCompatActivity {
         TextView testResultTextView = (TextView) findViewById(R.id.test_result_text_view);
         testResultTextView.setText(result);
     }
+
+    /**
+     * This method is called when user selected the correct answer.
+     * Added +1 to score for each correct answer
+     */
+    private int increment_score(int score) {
+        score = ++score;
+        return score;
+    }
 }
