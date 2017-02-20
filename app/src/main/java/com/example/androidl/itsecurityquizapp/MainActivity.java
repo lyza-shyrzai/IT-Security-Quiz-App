@@ -3,6 +3,7 @@ package com.example.androidl.itsecurityquizapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -29,8 +30,10 @@ public class MainActivity extends AppCompatActivity {
         EditText nameField = (EditText) findViewById(R.id.name_field);
         String name = nameField.getText().toString();
 
+        question_1();
+
         // Display the test result on the screen
-        String test_result = createTestResult(name);
+        String test_result = createTestResult(name, score);
         displayResult(test_result);
 
     }
@@ -41,11 +44,25 @@ public class MainActivity extends AppCompatActivity {
      * @param name of the passing the test
      * @return text of the test result
      */
-    private String createTestResult(String name) {
+    private String createTestResult(String name, int score) {
         String test_result = getString(R.string.test_result_name) + name;
+        test_result += "\n" + getString(R.string.test_result_score) + score;
 
 
         return test_result;
+    }
+
+    /**
+     * This method counter correct answers in question 1
+     */
+    public void question_1() {
+        // Figure out if the user chose Availability answer
+        CheckBox AvailabilityCheckBox = (CheckBox) findViewById(R.id.availability_checkbox);
+        boolean hasAvailability = AvailabilityCheckBox.isChecked();
+
+        if (hasAvailability) {
+            increment_score();
+        }
     }
 
     /**
@@ -60,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when user selected the correct answer.
      * Added +1 to score for each correct answer
      */
-    private int increment_score(int score) {
+    private int increment_score() {
         score = ++score;
         return score;
     }

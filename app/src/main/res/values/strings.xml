@@ -113,4 +113,5 @@
     <!--Test Result-->
     <string name="test_result_name">"Name: "</string>
     <string name="test_result">Test Result</string>
+    <string name="test_result_score">"Score: "</string>
 </resources>
