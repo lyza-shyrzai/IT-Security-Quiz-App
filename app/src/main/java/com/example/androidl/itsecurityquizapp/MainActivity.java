@@ -87,6 +87,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * This method counter correct answers in question 2
+     * Which of the following statements best describes confidentiality of information?
+     */
+    public void question_2() {
+
+    }
+
+    /**
      * This method displays the given text on the screen.
      */
     private void displayResult(String result) {
