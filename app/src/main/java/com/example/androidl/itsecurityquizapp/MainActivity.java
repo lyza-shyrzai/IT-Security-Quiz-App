@@ -3,6 +3,7 @@ package com.example.androidl.itsecurityquizapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -36,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
         String test_result = createTestResult(name, score);
         displayResult(test_result);
 
+        // Disabled "End Test" button after clicking on it.
+        Button endTestButton = (Button) findViewById(R.id.end_test_button);
+        endTestButton.setEnabled(false);
     }
 
     /**
