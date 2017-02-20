@@ -54,13 +54,30 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 1
+     * Which of the following are the primary goals of network security? (Choose 3 best answers)
      */
     public void question_1() {
-        // Figure out if the user chose Availability answer
+        // Figure out if the user chose "Availability" answer
         CheckBox AvailabilityCheckBox = (CheckBox) findViewById(R.id.availability_checkbox);
         boolean hasAvailability = AvailabilityCheckBox.isChecked();
 
         if (hasAvailability) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Integrity" answer
+        CheckBox IntegrityCheckBox = (CheckBox) findViewById(R.id.integrity_checkbox);
+        boolean hasIntegrity = IntegrityCheckBox.isChecked();
+
+        if (hasIntegrity) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Confidentiality" answer
+        CheckBox ConfidentialityCheckBox = (CheckBox) findViewById(R.id.confidentiality_checkbox);
+        boolean hasConfidentiality = ConfidentialityCheckBox.isChecked();
+
+        if (hasConfidentiality) {
             increment_score();
         }
     }
