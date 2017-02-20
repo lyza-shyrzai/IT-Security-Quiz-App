@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 /**
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         String name = nameField.getText().toString();
 
         question_1();
+        question_2();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -91,7 +94,18 @@ public class MainActivity extends AppCompatActivity {
      * Which of the following statements best describes confidentiality of information?
      */
     public void question_2() {
-
+        RadioButton answerRadio;
+        RadioGroup answers = (RadioGroup) findViewById(R.id.question_2);
+        switch (answers.getCheckedRadioButtonId()) {
+            case R.id.answer_2_1_radiobutton:
+                answerRadio = (RadioButton) findViewById(R.id.answer_2_1_radiobutton);
+                increment_score();
+                break;
+            default:
+                answerRadio = (RadioButton) findViewById(R.id.answer_2_2_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.answer_2_3_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.answer_2_4_radiobutton);
+        }
     }
 
     /**
