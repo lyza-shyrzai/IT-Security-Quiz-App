@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         question_2();
         question_3();
         question_4();
+        question_5();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -157,6 +158,36 @@ public class MainActivity extends AppCompatActivity {
         boolean hasAdministrative = AdministrativeCheckBox.isChecked();
 
         if (hasAdministrative) {
+            increment_score();
+        }
+    }
+
+    /**
+     * This method counter correct answers in question 5
+     * Which of the following is true about Dynamic ARP Inspection (DAI) employed in a network switch? (Choose 3 best answers)
+     */
+    public void question_5() {
+        // Figure out if the user chose "Intercept and examine all ARP request and response packets in a subnet and discard packets with invalid IP-to-MAC address bindings" answer
+        CheckBox Answer_5_1_CheckBox = (CheckBox) findViewById(R.id.answer_5_1_checkbox);
+        boolean hasAnswer_5_1_CheckBox = Answer_5_1_CheckBox.isChecked();
+
+        if (hasAnswer_5_1_CheckBox) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "DAI can prevent common man-in-the-middle (MIM) attacks such as ARP cache poisoning" answer
+        CheckBox Answer_5_3_CheckBox = (CheckBox) findViewById(R.id.answer_5_3_checkbox);
+        boolean hasAnswer_5_3_CheckBox = Answer_5_3_CheckBox.isChecked();
+
+        if (hasAnswer_5_3_CheckBox) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Prevents mis-configuration of client IP addresses" answer
+        CheckBox Answer_5_4_CheckBox = (CheckBox) findViewById(R.id.answer_5_4_checkbox);
+        boolean hasAnswer_5_4_CheckBox = Answer_5_4_CheckBox.isChecked();
+
+        if (hasAnswer_5_4_CheckBox) {
             increment_score();
         }
     }
