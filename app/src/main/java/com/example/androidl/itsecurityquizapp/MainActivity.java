@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         question_1();
         question_2();
+        question_3();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -105,6 +106,26 @@ public class MainActivity extends AppCompatActivity {
                 answerRadio = (RadioButton) findViewById(R.id.answer_2_2_radiobutton);
                 answerRadio = (RadioButton) findViewById(R.id.answer_2_3_radiobutton);
                 answerRadio = (RadioButton) findViewById(R.id.answer_2_4_radiobutton);
+        }
+    }
+
+    /**
+     * This method counter correct answers in question 3
+     * According to Cisco, organizational data is classified into four categories. Which of the following is NOT classification category?
+     */
+    public void question_3() {
+        RadioButton answerRadio;
+        RadioGroup answers = (RadioGroup) findViewById(R.id.question_3);
+        switch (answers.getCheckedRadioButtonId()) {
+            case R.id.trusty_worthy_radiobutton:
+                answerRadio = (RadioButton) findViewById(R.id.trusty_worthy_radiobutton);
+                increment_score();
+                break;
+            default:
+                answerRadio = (RadioButton) findViewById(R.id.publ_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.sensitive_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.confidential_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.private_radiobutton);
         }
     }
 
