@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         question_4();
         question_5();
         question_6();
+        question_7();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -210,6 +211,25 @@ public class MainActivity extends AppCompatActivity {
                 answerRadio = (RadioButton) findViewById(R.id.active_attack_radiobutton);
                 answerRadio = (RadioButton) findViewById(R.id.close_in_attack_radiobutton);
                 answerRadio = (RadioButton) findViewById(R.id.insider_attack_radiobutton);
+        }
+    }
+
+    /**
+     * This method counter correct answers in question 7
+     * An organization screens its employees for any previous criminal records, as part of implementation of organizational security. It may be categorized as:
+     */
+    public void question_7() {
+        RadioButton answerRadio;
+        RadioGroup answers = (RadioGroup) findViewById(R.id.question_7);
+        switch (answers.getCheckedRadioButtonId()) {
+            case R.id.administrative_security_radiobutton:
+                answerRadio = (RadioButton) findViewById(R.id.administrative_security_radiobutton);
+                increment_score();
+                break;
+            default:
+                answerRadio = (RadioButton) findViewById(R.id.physical_security_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.logical_security_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.vulnerability_radiobutton);
         }
     }
 

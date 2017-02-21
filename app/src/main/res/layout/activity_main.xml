@@ -269,6 +269,7 @@
             android:text="@string/Question_7" />
 
         <RadioGroup
+            android:id="@+id/question_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
