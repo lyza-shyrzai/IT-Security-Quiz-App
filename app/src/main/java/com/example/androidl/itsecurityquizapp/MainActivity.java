@@ -1,5 +1,6 @@
 package com.example.androidl.itsecurityquizapp;
 
+import android.support.annotation.Px;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import static android.R.attr.x;
 
 /**
  * This app is IT Security Quiz
@@ -42,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         question_6();
         question_7();
         question_8();
+        question_9();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -260,6 +264,36 @@ public class MainActivity extends AppCompatActivity {
         boolean hasSocialEngineeringCheckBox = SocialEngineeringCheckBox.isChecked();
 
         if (hasSocialEngineeringCheckBox) {
+            increment_score();
+        }
+    }
+
+    /**
+     * This method counter correct answers in question 8
+     * Which three of the following are the Confidentiality attack strategies? (Choose 3 best answers)
+     */
+    public void question_9() {
+        // Figure out if the user chose "Data diddling" answer
+        CheckBox DataDiddlingCheckBox = (CheckBox) findViewById(R.id.data_diddling_checkbox);
+        boolean hasDataDiddlingCheckBox = DataDiddlingCheckBox.isChecked();
+
+        if (hasDataDiddlingCheckBox) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Password attack" answer
+        CheckBox PasswordAttackCheckBox = (CheckBox) findViewById(R.id.password_attack_9_checkbox);
+        boolean hasPasswordAttackCheckBox = PasswordAttackCheckBox.isChecked();
+
+        if (hasPasswordAttackCheckBox) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Botnet" answer
+        CheckBox BotnetCheckBox = (CheckBox) findViewById(R.id.botnet_9_checkbox);
+        boolean hasBotnetCheckBox = BotnetCheckBox.isChecked();
+
+        if (hasBotnetCheckBox) {
             increment_score();
         }
     }
