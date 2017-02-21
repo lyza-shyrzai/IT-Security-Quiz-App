@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         question_7();
         question_8();
         question_9();
+        question_10();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -269,8 +270,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method counter correct answers in question 8
-     * Which three of the following are the Confidentiality attack strategies? (Choose 3 best answers)
+     * This method counter correct answers in question 9
+     * Which of the following are the Integrity attacks? (Choose 3 best answers)
      */
     public void question_9() {
         // Figure out if the user chose "Data diddling" answer
@@ -294,6 +295,28 @@ public class MainActivity extends AppCompatActivity {
         boolean hasBotnetCheckBox = BotnetCheckBox.isChecked();
 
         if (hasBotnetCheckBox) {
+            increment_score();
+        }
+    }
+
+    /**
+     * This method counter correct answers in question 10
+     * Which of the following are the attacks on availability of a resource? (Choose 2 best answers)
+     */
+    public void question_10() {
+        // Figure out if the user chose "Denial of Service" answer
+        CheckBox DenialOfServiceCheckBox = (CheckBox) findViewById(R.id.denial_of_service_checkbox);
+        boolean hasDenialOfServiceCheckBox = DenialOfServiceCheckBox.isChecked();
+
+        if (hasDenialOfServiceCheckBox) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "TCPSYN Flood" answer
+        CheckBox TCPSYNFloodCheckBox = (CheckBox) findViewById(R.id.tcpsyn_flood_10_checkbox);
+        boolean hasTCPSYNFloodCheckBox = TCPSYNFloodCheckBox.isChecked();
+
+        if (hasTCPSYNFloodCheckBox) {
             increment_score();
         }
     }

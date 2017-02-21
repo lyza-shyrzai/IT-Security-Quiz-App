@@ -391,7 +391,7 @@
             android:text="@string/question_10" />
 
         <CheckBox
-            android:id="@+id/denian_of_service_checkbox"
+            android:id="@+id/denial_of_service_checkbox"
             style="@style/Checkbox_Answer"
             android:text="@string/denian_of_service" />
 
