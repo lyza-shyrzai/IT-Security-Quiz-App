@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         question_3();
         question_4();
         question_5();
+        question_6();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -189,6 +190,26 @@ public class MainActivity extends AppCompatActivity {
 
         if (hasAnswer_5_4_CheckBox) {
             increment_score();
+        }
+    }
+
+    /**
+     * This method counter correct answers in question 6
+     * Which one of the following types of attack intentionally introduced a back door to a system?
+     */
+    public void question_6() {
+        RadioButton answerRadio;
+        RadioGroup answers = (RadioGroup) findViewById(R.id.question_6);
+        switch (answers.getCheckedRadioButtonId()) {
+            case R.id.distribution_attack_radiobutton:
+                answerRadio = (RadioButton) findViewById(R.id.distribution_attack_radiobutton);
+                increment_score();
+                break;
+            default:
+                answerRadio = (RadioButton) findViewById(R.id.passive_attack_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.active_attack_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.close_in_attack_radiobutton);
+                answerRadio = (RadioButton) findViewById(R.id.insider_attack_radiobutton);
         }
     }
 
