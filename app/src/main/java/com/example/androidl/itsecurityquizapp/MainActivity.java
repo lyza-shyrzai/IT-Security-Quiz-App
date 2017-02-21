@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         question_5();
         question_6();
         question_7();
+        question_8();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -230,6 +231,36 @@ public class MainActivity extends AppCompatActivity {
                 answerRadio = (RadioButton) findViewById(R.id.physical_security_radiobutton);
                 answerRadio = (RadioButton) findViewById(R.id.logical_security_radiobutton);
                 answerRadio = (RadioButton) findViewById(R.id.vulnerability_radiobutton);
+        }
+    }
+
+    /**
+     * This method counter correct answers in question 8
+     * Which three of the following are the Confidentiality attack strategies? (Choose 3 best answers)
+     */
+    public void question_8() {
+        // Figure out if the user chose "Packet capture" answer
+        CheckBox PacketCaptureCheckBox = (CheckBox) findViewById(R.id.packet_capture_checkbox);
+        boolean hasPacketCaptureCheckBox = PacketCaptureCheckBox.isChecked();
+
+        if (hasPacketCaptureCheckBox) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Dumpster driving" answer
+        CheckBox DumpsterDrivingCheckBox = (CheckBox) findViewById(R.id.dumpster_driving_8_checkbox);
+        boolean hasDumpsterDrivingCheckBox = DumpsterDrivingCheckBox.isChecked();
+
+        if (hasDumpsterDrivingCheckBox) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Social engineering" answer
+        CheckBox SocialEngineeringCheckBox = (CheckBox) findViewById(R.id.social_engineering_8_checkbox);
+        boolean hasSocialEngineeringCheckBox = SocialEngineeringCheckBox.isChecked();
+
+        if (hasSocialEngineeringCheckBox) {
+            increment_score();
         }
     }
 
