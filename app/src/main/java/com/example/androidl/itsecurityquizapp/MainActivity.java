@@ -61,19 +61,18 @@ public class MainActivity extends AppCompatActivity {
      * Create summary of the test result.
      *
      * @param name of the passing the test
+     * @param score of the counting of right answers
      * @return text of the test result
      */
     private String createTestResult(String name, int score) {
         String test_result = getString(R.string.test_result_name) + name;
         test_result += "\n" + getString(R.string.test_result_score) + score;
-
-
         return test_result;
     }
 
     /**
      * This method counter correct answers in question 1
-     * Which of the following are the primary goals of network security? (Choose 3 best answers)
+     * "Which of the following are the primary goals of network security? (Choose 3 best answers)"
      */
     public void question_1() {
         // Figure out if the user chose "Availability" answer
@@ -103,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 2
-     * Which of the following statements best describes confidentiality of information?
+     * "Which of the following statements best describes confidentiality of information?"
      */
     public void question_2() {
         RadioButton answerRadio;
@@ -122,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 3
-     * According to Cisco, organizational data is classified into four categories. Which of the following is NOT classification category?
+     * "According to Cisco, organizational data is classified into four categories. Which of the following is NOT classification category?"
      */
     public void question_3() {
         RadioButton answerRadio;
@@ -142,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 4
-     * What are the THREE security solution that Cisco recommends for comprehensive security?
+     * "What are the THREE security solution that Cisco recommends for comprehensive security?"
      */
     public void question_4() {
         // Figure out if the user chose "Physical" answer
@@ -172,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 5
-     * Which of the following is true about Dynamic ARP Inspection (DAI) employed in a network switch? (Choose 3 best answers)
+     * "Which of the following is true about Dynamic ARP Inspection (DAI) employed in a network switch? (Choose 3 best answers)"
      */
     public void question_5() {
         // Figure out if the user chose "Intercept and examine all ARP request and response packets in a subnet and discard packets with invalid IP-to-MAC address bindings" answer
@@ -202,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 6
-     * Which one of the following types of attack intentionally introduced a back door to a system?
+     * "Which one of the following types of attack intentionally introduced a back door to a system?"
      */
     public void question_6() {
         RadioButton answerRadio;
@@ -222,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 7
-     * An organization screens its employees for any previous criminal records, as part of implementation of organizational security. It may be categorized as:
+     * "An organization screens its employees for any previous criminal records, as part of implementation of organizational security. It may be categorized as: "
      */
     public void question_7() {
         RadioButton answerRadio;
@@ -241,7 +240,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 8
-     * Which three of the following are the Confidentiality attack strategies? (Choose 3 best answers)
+     * "Which three of the following are the Confidentiality attack strategies? (Choose 3 best answers)"
      */
     public void question_8() {
         // Figure out if the user chose "Packet capture" answer
@@ -271,7 +270,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 9
-     * Which of the following are the Integrity attacks? (Choose 3 best answers)
+     * "Which of the following are the Integrity attacks? (Choose 3 best answers)"
      */
     public void question_9() {
         // Figure out if the user chose "Data diddling" answer
@@ -301,7 +300,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method counter correct answers in question 10
-     * Which of the following are the attacks on availability of a resource? (Choose 2 best answers)
+     * "Which of the following are the attacks on availability of a resource? (Choose 2 best answers)"
      */
     public void question_10() {
         // Figure out if the user chose "Denial of Service" answer
