@@ -33,9 +33,11 @@ public class MainActivity extends AppCompatActivity {
         EditText nameField = (EditText) findViewById(R.id.name_field);
         String name = nameField.getText().toString();
 
+        //Called question checking methods
         question_1();
         question_2();
         question_3();
+        question_4();
 
         // Display the test result on the screen
         String test_result = createTestResult(name, score);
@@ -126,6 +128,36 @@ public class MainActivity extends AppCompatActivity {
                 answerRadio = (RadioButton) findViewById(R.id.sensitive_radiobutton);
                 answerRadio = (RadioButton) findViewById(R.id.confidential_radiobutton);
                 answerRadio = (RadioButton) findViewById(R.id.private_radiobutton);
+        }
+    }
+
+    /**
+     * This method counter correct answers in question 4
+     * What are the THREE security solution that Cisco recommends for comprehensive security?
+     */
+    public void question_4() {
+        // Figure out if the user chose "Physical" answer
+        CheckBox PhysicalCheckBox = (CheckBox) findViewById(R.id.physical_checkbox);
+        boolean hasPhysical = PhysicalCheckBox.isChecked();
+
+        if (hasPhysical) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Logical" answer
+        CheckBox LogicalCheckBox = (CheckBox) findViewById(R.id.logical_checkbox);
+        boolean hasLogical = LogicalCheckBox.isChecked();
+
+        if (hasLogical) {
+            increment_score();
+        }
+
+        // Figure out if the user chose "Administrative" answer
+        CheckBox AdministrativeCheckBox = (CheckBox) findViewById(R.id.administrative_checkbox);
+        boolean hasAdministrative = AdministrativeCheckBox.isChecked();
+
+        if (hasAdministrative) {
+            increment_score();
         }
     }
 
