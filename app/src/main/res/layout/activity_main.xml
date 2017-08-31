@@ -393,7 +393,7 @@
         <CheckBox
             android:id="@+id/denial_of_service_checkbox"
             style="@style/Checkbox_Answer"
-            android:text="@string/denian_of_service" />
+            android:text="@string/denial_of_service" />
 
         <CheckBox
             android:id="@+id/password_attack_10_checkbox"
